@@ -1,4 +1,4 @@
-FROM sonnt/nopc:dev-v1.0.1
+FROM sonnt/nopc:of-v1.0.1
 USER root:root
 ENV UPGRADE_MODE=0 DISPLAY_MAP_2GUES_INDEX=2 UPDATE_INFO_USER=0 HOSTUSER=nouser
 RUN ["echo","Starting..."]
